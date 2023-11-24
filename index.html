@@ -1,15 +1,161 @@
+<!-- 
+    THIS WEBSITE CODE HAS BEEN CREATED FROM A TEMPLATE...
+    I have took the template, understood the code and tweaked it.
+-->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
     <title>George Stephens</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+	<link rel="stylesheet" href="assets/css/leadmark.css">
 </head>
-<body>
-    <h1>George Stephens.</h1>
-    <h2>Portfolio</h2>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Second Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h1 class="title">George Stephens</h1>  
+            <h1 class="subtitle">Portfolio</h1>
+        </div>  
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+            </svg>
+        </div>  
+    </header>
+    <!-- End Of Page Header -->
+
+    <!-- Projects Section -->
+    <section  id="projects" class="section pt-0">
+        <div class="container">
+            <h6 class="section-title text-center">Projects</h6>
+            <h6 class="section-subtitle text-center mb-5 pb-3">A few things I have worked on.</h6>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">01</small>
+                            <h5 class="card-title mt-3"> IBM <h5>
+                            <p class="mb-0">I have led the creation of a Eggplant test automation framework on a client account at IBM. Owning all code related within the Library. I also configured the git repo and review pull requests from the developers on my team.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">02</small>
+                            <h5 class="card-title mt-3">Coming Soon...<h5>
+                            <p class="mb-0">This project description will be in the near future.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">03</small>
+                            <h5 class="card-title mt-3">Coming Soon...<h5>
+                            <p class="mb-0">This project description will be in the near future.</p>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </section>
+    <!-- End OF Service Section -->
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                    <h6 class="section-title mb-0">About Me</h6>
+                    <h6 class="section-subtitle mb-4">A few things about me.</h6>
+                    <p ><b>I am a 20 year old developer working at IBM.</b> I gravitate towards solving problems and have the mindset of: If I can't solve it now, I will figure out how to. Currently I am in Test Automation, where I use my programming skills to automate test cases so software releases are delivered on time and with quality.</p>
+                    <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
+                </div>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/imgs/about-1.jpg" alt="" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/imgs/about-2.jpg" alt="" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p>I am very passionate about programming. I am eager to work on open source projects and learn new tech stacks.</p>
+                            <p><b>I am adept in:</b> <br>Python, Sensetalk, Selenium<br>HMTL, CSS, Git<br>SQL, JQL<br></p>
+                            <p><b>I am familiar with:</b> <br>Object Oriented, Functional<br>Java, JavaScript, Lua</p>
+                        </div>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </section>
+    <!-- End OF About Section -->
+
+    <!-- Contact Section -->
+    <section  id="contact" class="section pt-0">
+        <div class="container">
+            <div class="row">
+                    <p class="mb-0"><br>A few ways to get in touch with me.<br><br>georgecampbellstephens@gmail.com<br>LinkedIn: <a href="https://www.linkedin.com/in/george-stephens-065683206/">George Stephens</a></p>
+                   
+            </div>
+        </div>
+    </section>
+    <!-- End OF Service Section -->
+
+    <!-- Page Footer -->
+    <footer class="mt-5 py-4 border-top border-secondary">
+        <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, LeadMark Created By <a href="https://www.devcrud.com" target="_blank">DevCrud.</a>  All rights reserved </p>     
+    </footer>
+    <!-- End of Page Footer -->  
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="assets/js/leadmark.js"></script>
+
 </body>
 </html>
